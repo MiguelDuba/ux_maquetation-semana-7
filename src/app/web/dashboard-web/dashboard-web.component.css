@@ -1,0 +1,37 @@
+.body-center{
+    padding-top: 0%;
+}
+.dash-calendar{
+    width: 100%;
+}
+.test{
+    height: 100%;
+}
+.test2{
+    min-height: 200%;
+}
+.calendar-box{
+    padding: 1%;
+}
+::ng-deep .mat-calendar{
+    background-color: black;
+    border-radius: 5px;
+}
+::ng-deep .mat-calendar-body-label{
+    color: white;
+}
+::ng-deep .mat-calendar-body-cell-content{
+    color: white;
+}
+::ng-deep .mat-calendar-table-header{
+    color: white;
+}
+::ng-deep .mat-calendar-header{
+    color: white;
+}
+::ng-deep .mat-calendar-arrow{
+    fill: white;
+}
+::ng-deep .mdc-button__label{
+    color: white;
+}
