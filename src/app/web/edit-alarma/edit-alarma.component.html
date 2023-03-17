@@ -1,0 +1,114 @@
+<app-header-web></app-header-web>
+<mat-grid-list cols="3" rowHeight="7:1">
+  <mat-grid-tile colspan="3" rowspan="1">
+    <div style="width: 30%">
+      <h1 class="title">Nueva alarma</h1>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile class="test2" colspan="1" rowspan="6">
+    <mat-card class="dash-calendar">
+      <mat-calendar></mat-calendar>
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="title-header customFlexContainer flexGrow3">
+      <label>Repetir</label>
+      <label class="goRight">25 FEB</label>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <h1>Dipositivos</h1>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <a mat-button>LUN</a>
+    <a mat-button>MAR</a>
+    <a mat-button>MIR</a>
+    <a mat-button>JUE</a>
+    <a mat-button>VIE</a>
+    <a mat-button>SAB</a>
+    <a mat-button>DOM</a>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="alarma">
+      <mat-card class="mat-card">
+        <mat-card-content class="dispositivo">TV</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="title-header customFlexContainer flexGrow3">
+      <label>Metodos de apagado</label>
+      <div>
+        <mat-form-field appearance="fill">
+          <mat-select>
+            <mat-option>Por defecto</mat-option>
+            <mat-option>Sacudir</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="alarma">
+      <mat-card class="mat-card">
+        <mat-card-content class="dispositivo">Mi cel</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="title-header customFlexContainer flexGrow3">
+      <label>Sonido</label>
+      <div>
+        <mat-form-field appearance="fill">
+          <mat-select>
+            <mat-option>Por defecto</mat-option>
+            <mat-option>Pajaros</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="alarma">
+      <mat-card class="mat-card2">
+        <mat-card-content class="dispositivo">Carro</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="title-header customFlexContainer flexGrow3">
+      <label>Vibracion</label>
+      <div>
+        <mat-slide-toggle color="warn"></mat-slide-toggle>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="alarma">
+      <mat-card class="mat-card2">
+        <mat-card-content class="dispositivo">TV habitacion</mat-card-content>
+      </mat-card>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <div class="title-header customFlexContainer flexGrow3">
+      <label>Silenciar</label>
+      <div>
+        <mat-form-field appearance="fill">
+          <mat-select>
+            <mat-option>5 min</mat-option>
+            <mat-option>10 min</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="1" rowspan="1">
+    <span>&nbsp;</span>
+  </mat-grid-tile>
+  <mat-grid-tile colspan="3" rowspan="1">
+    <div style="width: 30%">
+      <button class="buttonOk" mat-button color="black">Guardar</button>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>

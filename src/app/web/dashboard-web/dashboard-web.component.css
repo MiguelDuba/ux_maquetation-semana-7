@@ -3,14 +3,20 @@
 }
 .dash-calendar{
     width: 100%;
+    padding-top: 0;
 }
 .test{
     height: 100%;
 }
 .test2{
-    min-height: 200%;
+    min-height: 100%;
+    padding: 0 !important;
 }
 .calendar-box{
+    padding: 1%;
+}
+.title-header{
+    width: 100%;
     padding: 1%;
 }
 ::ng-deep .mat-calendar{
@@ -33,5 +39,46 @@
     fill: white;
 }
 ::ng-deep .mdc-button__label{
+    color: white;
+}
+.customFlexContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 0%;
+    align-items: center;  
+  }
+  
+  .customFlexContainerNoSpace {
+    display: flex;  
+    height: 0%;
+    align-items: center;
+  }
+  
+  .flexGrow3 {
+    flex-grow: 3;
+  }
+  
+  button {
+    margin-left: 5px;  
+  }
+
+  .goCenter{
+    align-self: center;
+  }
+  
+  .goRight {
+    align-self: flex-end;
+  }
+
+  .mat-black {
+    background-color: black;
+    color: #fff;
+}
+.alarma{
+    width: 95%;
+}
+.mat-card{
+    background-color: black;
     color: white;
 }

@@ -1,0 +1,58 @@
+<app-header-web></app-header-web>
+<mat-grid-list cols="4" rowHeight="4:1">
+    <mat-grid-tile colspan="4" rowspan="1">
+        <div style="width: 30%">
+          <h1 class="title">Nuevo Dispositivo</h1>
+        </div>
+      </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="3">
+        <span>&nbsp;</span>
+      </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+        <h1>Nombre</h1>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" rowspan="1">
+        <h1>Alarmas</h1>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" rowspan="3">
+        <span>&nbsp;</span>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" rowspan="1">
+        <mat-form-field class="example-full-width">
+            <mat-label>Nombre</mat-label>
+            <input matInput placeholder="TV">
+          </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" rowspan="1">
+        <div class="alarma">
+          <mat-card class="mat-card">
+            <mat-card-content class="dispositivo">Meditar</mat-card-content>
+          </mat-card>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" rowspan="1">
+        <div class="title-header customFlexContainer flexGrow3">
+          <label>Tipo</label>
+          <div>
+            <mat-form-field appearance="fill">
+              <mat-select>
+                <mat-option>TV</mat-option>
+                <mat-option>Celular</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile colspan="1" rowspan="1">
+        <div class="alarma">
+          <mat-card class="mat-card">
+            <mat-card-content class="dispositivo">Despertar</mat-card-content>
+          </mat-card>
+        </div>
+      </mat-grid-tile>
+  <mat-grid-tile colspan="4" rowspan="1">
+    <div style="width: 30%">
+      <button class="buttonOk" mat-button color="black">Guardar</button>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>

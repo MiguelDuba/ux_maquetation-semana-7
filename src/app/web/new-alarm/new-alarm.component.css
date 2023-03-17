@@ -1,0 +1,80 @@
+.mat-card {
+  background-color: black;
+  color: white;
+}
+.mat-card2 {
+  background-color: rgb(190, 190, 190);
+  color: black;
+}
+.title {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.dash-calendar {
+  width: 50%;
+}
+.test2 {
+  margin-top: 0% !important;
+  padding-top: 50% !important;
+}
+.customFlexContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  height: 0%;
+  align-items: center;
+}
+
+.customFlexContainerNoSpace {
+  display: flex;
+  height: 0%;
+  align-items: center;
+}
+
+.flexGrow3 {
+  flex-grow: 3;
+}
+
+button {
+  margin-left: 5px;
+}
+
+.goCenter {
+  align-self: center;
+}
+
+.goRight {
+  align-self: flex-end;
+}
+
+.mat-black {
+  background-color: black;
+  color: #fff;
+}
+.alarma {
+  width: 95%;
+}
+.dispositivo {
+  text-align: center;
+}
+.dispositivo2 {
+  text-align: center;
+}
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+.mat-black {
+  background-color: #9DADBE;
+  color: black !important;
+  
+}
+
+.buttonOk {
+    width: 100%;
+  }

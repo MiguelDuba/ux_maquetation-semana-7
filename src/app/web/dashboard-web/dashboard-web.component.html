@@ -1,12 +1,64 @@
 <app-header-web></app-header-web>
 <section class="calendar-box">
-    <mat-grid-list cols="3" rowHeight="3:1">
-        <mat-grid-tile class="test2">
-            <mat-card class="dash-calendar">
-                <mat-calendar></mat-calendar>
-              </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>2</mat-grid-tile>
-        <mat-grid-tile>3</mat-grid-tile>
-      </mat-grid-list>
+  <mat-grid-list cols="3" rowHeight="3:1">
+    <mat-grid-tile class="test2" colspan="1" rowspan="3">
+      <mat-card class="dash-calendar">
+        <mat-calendar></mat-calendar>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+        <div class="title-header customFlexContainer flexGrow3">
+          <h1>Alarmas</h1
+          ><button
+            mat-mini-fab
+            class="goRight"
+            color="black"
+            routerLink="/web/newAlarm"
+            aria-label="Example icon button with a menu icon"
+          >
+            <mat-icon>add</mat-icon>
+          </button>
+        </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+      <div class="title-header customFlexContainer flexGrow3">
+        <h1>Dispositivos</h1
+        ><button
+          mat-mini-fab
+          class="goRight"
+          color="black"
+          routerLink="/web/newDispositivo"
+          aria-label="Example icon button with a menu icon"
+        >
+          <mat-icon>add</mat-icon>
+        </button>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+      <div class="alarma">
+        <mat-card class="mat-card">
+          <mat-card-header routerLink="/web/editAlarm">
+            <mat-card-title>Meditar</mat-card-title>
+            <mat-card-subtitle style="color:white">9:30 AM</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-actions align="end">
+            <mat-slide-toggle color="warn"></mat-slide-toggle>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1" rowspan="1">
+      <div class="alarma">
+        <mat-card class="mat-card">
+          <mat-card-header routerLink="/web/editDispositivo">
+            <mat-card-title>TV sala</mat-card-title>
+            <mat-card-subtitle style="color:white">&nbsp;</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-actions align="end">
+            <mat-slide-toggle color="warn"></mat-slide-toggle>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
 </section>

@@ -15,6 +15,13 @@ import { DashboardWebComponent } from './web/dashboard-web/dashboard-web.compone
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import { NewAlarmComponent } from './web/new-alarm/new-alarm.component';
+import {MatSelectModule} from '@angular/material/select';
+import { NewDispositivoComponent } from './web/new-dispositivo/new-dispositivo.component'
+import {MatInputModule} from '@angular/material/input';
+import { EditAlarmaComponent } from './web/edit-alarma/edit-alarma.component';
+import { EditDispositivoComponent } from './web/edit-dispositivo/edit-dispositivo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +29,11 @@ import { MatNativeDateModule } from '@angular/material/core';
     LoginMovilComponent,
     LoginWebComponent,
     HeaderWebComponent,
-    DashboardWebComponent
+    DashboardWebComponent,
+    NewAlarmComponent,
+    NewDispositivoComponent,
+    EditAlarmaComponent,
+    EditDispositivoComponent
   ],
   imports: [
     BrowserModule,
@@ -34,9 +45,11 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatToolbarModule,
     MatGridListModule,
     MatDatepickerModule,
-    
+    MatSlideToggleModule,
     MatNativeDateModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSelectModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

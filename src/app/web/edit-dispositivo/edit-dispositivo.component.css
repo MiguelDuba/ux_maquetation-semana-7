@@ -1,0 +1,56 @@
+.title {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+  .alarma {
+    width: 95%;
+  }
+  .mat-card {
+    background-color: black;
+    color: white;
+  }
+  .dispositivo {
+    text-align: center;
+  }
+  .customFlexContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 0%;
+    align-items: center;
+  }
+  
+  .customFlexContainerNoSpace {
+    display: flex;
+    height: 0%;
+    align-items: center;
+  }
+  
+  .flexGrow3 {
+    flex-grow: 3;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  
+  .goCenter {
+    align-self: center;
+  }
+  
+  .goRight {
+    align-self: flex-end;
+  }
+  .example-full-width{
+    width: 100%;
+  }
+  .buttonOk {
+    width: 100%;
+  }
+  .mat-black {
+    background-color: #9DADBE;
+    color: black !important;
+    
+  }
