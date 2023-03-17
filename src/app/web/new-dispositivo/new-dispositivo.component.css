@@ -54,3 +54,8 @@
     color: black !important;
     
   }
+
+  .mat-card2 {
+    background-color: rgb(190, 190, 190);
+    color: black;
+  }

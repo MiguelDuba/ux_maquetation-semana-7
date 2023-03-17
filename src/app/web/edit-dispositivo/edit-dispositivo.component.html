@@ -18,9 +18,9 @@
         <span>&nbsp;</span>
       </mat-grid-tile>
       <mat-grid-tile colspan="1" rowspan="1">
-        <mat-form-field class="example-full-width">
+        <mat-form-field  class="example-full-width">
             <mat-label>Nombre</mat-label>
-            <input matInput placeholder="TV">
+            <input matInput value="TV" placeholder="TV">
           </mat-form-field>
       </mat-grid-tile>
       <mat-grid-tile colspan="1" rowspan="1">
@@ -35,9 +35,9 @@
           <label>Tipo</label>
           <div>
             <mat-form-field appearance="fill">
-              <mat-select>
-                <mat-option>TV</mat-option>
-                <mat-option>Celular</mat-option>
+              <mat-select value="1">
+                <mat-option value="1">TV</mat-option>
+                <mat-option value="2">Celular</mat-option>
               </mat-select>
             </mat-form-field>
           </div>
@@ -52,7 +52,7 @@
       </mat-grid-tile>
   <mat-grid-tile colspan="4" rowspan="1">
     <div style="width: 30%">
-      <button class="buttonOk" mat-button color="black">Guardar</button>
+      <button class="buttonOk" routerLink="/web/dashboard" mat-button color="black">Guardar</button>
     </div>
   </mat-grid-tile>
 </mat-grid-list>
